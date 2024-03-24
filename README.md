@@ -52,13 +52,13 @@ All data prepared, you can simply train the model on FashionAI dataset
 python mainFashionAI.py
 ```
 
- You can train the model on DeepFashion dataset like 
+ You can train the model on DeepFashion dataset 
 
 ```sh
 python mainDeepFashion.py
 ```
 
- You can train the model on Zappos50k dataset like 
+ You can train the model on Zappos50k dataset 
 
 ```
 python mainZappos50k.py
@@ -78,10 +78,10 @@ python mainZappos50k.py --test --resume runs/{your_exp_name}/xx.pth.tar
 ### Citation
 If you find this code to be useful for your research, please consider citing.
 <pre>
-@inproceedings{Ling2024,
+@article{Ling2024,
       title={Attribute-Guided Multi-Level Attention Network for Fine-Grained Fashion Retrieval}, 
       author={Ling Xiao and Toshihiko Yamasaki},
       year={2024},
-      booktitle={IEEE Access},
+      journal={IEEE Access},
 }</pre>
 
