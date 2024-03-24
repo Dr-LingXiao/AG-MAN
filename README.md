@@ -1,4 +1,4 @@
-
+This is the official source code of "Attribute-Guided Multi-Level Attention Network for Fine-Grained Fashion Retrieval" that has been accepeted in IEEE Access.
 
 ### Environments
 
@@ -70,5 +70,10 @@ As training terminates, two snapshots are saved for testing. One is the model th
 
 ```sh
 python mainFashionAI.py --test --resume runs/{your_exp_name}/xx.pth.tar
+python mainDeepFashion.py --test --resume runs/{your_exp_name}/xx.pth.tar
+python mainZappos50k.py --test --resume runs/{your_exp_name}/xx.pth.tar
+
 ```
+
+
 
