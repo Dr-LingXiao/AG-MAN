@@ -1,4 +1,4 @@
-This is the official source code of "Attribute-Guided Multi-Level Attention Network for Fine-Grained Fashion Retrieval" that has been accepeted in IEEE Access.
+## This is the official source code of "Attribute-Guided Multi-Level Attention Network for Fine-Grained Fashion Retrieval" that has been accepeted in IEEE Access.
 
 ### Environments
 
@@ -75,5 +75,13 @@ python mainZappos50k.py --test --resume runs/{your_exp_name}/xx.pth.tar
 
 ```
 
-
+### Citation
+If you find this code to be useful for your research, please consider citing.
+<pre>
+@inproceedings{Ling2024,
+      title={Attribute-Guided Multi-Level Attention Network for Fine-Grained Fashion Retrieval}, 
+      author={Ling Xiao and Toshihiko Yamasaki},
+      year={2024},
+      booktitle={IEEE Access},
+}</pre>
 
