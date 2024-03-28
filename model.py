@@ -68,7 +68,7 @@ class SpatialAttention(nn.Module):
 
 class AG_MAN(nn.Module):
     def __init__(self, backbonenet, embedding_size, n_attributes):
-        super(AG_MLAN, self).__init__()
+        super(AG_MAN, self).__init__()
         self.backbonenet = backbonenet
         self.n_attributes = n_attributes
         self.embedding_size = embedding_size
