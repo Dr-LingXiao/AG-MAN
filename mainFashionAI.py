@@ -60,7 +60,7 @@ parser.add_argument('--data_path', default="data", type=str,
                     help='path to data directory')
 parser.add_argument('--dataset', default="FashionAI", type=str,
                     help='name of dataset')
-parser.add_argument('--model', default="AG_MLAN", type=str,
+parser.add_argument('--model', default="AG_MAN", type=str,
                     help='model to load')
 parser.add_argument('--step_size', type=int, default=3, metavar='N',
                     help='learning rate decay step size')
