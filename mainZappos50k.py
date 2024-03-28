@@ -44,7 +44,7 @@ parser.add_argument('--margin', type=float, default=0.2, metavar='M',
                     help='margin for triplet loss (default: 0.3)')
 parser.add_argument('--resume', default=None, type=str,
                     help='path to latest checkpoint (default: none)')
-parser.add_argument('--name', default='AG_MLAN', type=str,
+parser.add_argument('--name', default='AG_MAN', type=str,
                     help='name of experiment')
 parser.add_argument('--num_triplets', type=int, default=200000, metavar='N',
                     help='how many unique training triplets (default: 100000)')
