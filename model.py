@@ -220,7 +220,7 @@ class ConditionalSimNet(nn.Module):
 
 model_dict = {
     'Tripletnet': Tripletnet,
-    'AG_MLAN': AG_MLAN,
+    'AG_MLAN': AG_MAN,
     'ConditionalSimNet': ConditionalSimNet
 }
 def get_model(name):
