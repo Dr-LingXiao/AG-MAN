@@ -170,7 +170,7 @@ class AG_MAN(nn.Module):
 
 model_dict = {
     'Tripletnet': Tripletnet,
-    'AG_MAN': AG_MAN,
+    'AG_MAN': AG_MAN
 }
 def get_model(name):
     return model_dict[name]
