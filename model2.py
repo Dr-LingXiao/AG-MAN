@@ -63,7 +63,7 @@ class SpatialAttention(nn.Module):
 
 
 
-class AG_MLAN(nn.Module):
+class AG_MAN(nn.Module):
     def __init__(self, backbonenet, embedding_size, n_attributes):
         super(AG_MLAN, self).__init__()
         self.backbonenet = backbonenet
@@ -216,7 +216,7 @@ class ConditionalSimNet(nn.Module):
 
 model_dict = {
     'Tripletnet': Tripletnet,
-    'AG_MLAN': AG_MLAN,
+    'AG_MAN': AG_MAN,
     'ConditionalSimNet': ConditionalSimNet
 }
 def get_model(name):
